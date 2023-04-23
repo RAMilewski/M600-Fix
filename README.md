@@ -1,4 +1,4 @@
-# FixM600.py - Improves/fixes PrusaSlicer Color Change Problem
+# FixM600.py - Fixes PrusaSlicer Color Change Problem
 
 The default behavior of PrusaSlicer 2.5.x and 2.6 (at least through Alpha 6) does the color change at the end of the layer - before traveling to the next print position of the next layer. This can leave a blob in the previous layer when the printer resumes after color change.
 
